@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700;800&display=swap');
+
+*{
+    font-family: 'K2D', sans-serif;
+}
+
 .bg-1{
     background-image: url("../Images/BG_01.webp");
     background-size: cover;
-    
 }
 
 .bg-2{
@@ -9,17 +14,12 @@
     background-size: cover;
 }
 
-
 .personal-color{
     color: #008C8C ;
 }
 
-.px-10{
-    padding: 0 10%;
-}
-
-.py-15{
-    padding: 20% 0;
+.py-28{
+    padding: 28% 0;
 }
 
 .personal-fs{
@@ -34,51 +34,33 @@
     border-color: #008C8C !important;
 }
 
+.img-service{
+    width: 15%;
+    height: 20%;
+}
+
+.img-rea{
+    width: 30%;
+    height: 30vh;
+}
+
 h1, h2, h3,h4, a{
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-
-/*
-============================
-            font
-============================
-*/
-
-@font-face {
-    font-family: "K2D-Bold";
-    src: url('../Police/K2D/K2D-Bold.ttf');
-    font-display: swap;
-}
-@font-face {
-    font-family: "K2D-ExtraBold";
-    src: url('../Police/K2D/K2D-ExtraBold.ttf');
-    font-display: swap;
-}
-
-*{
-    font-family: "K2D-Bold", sans-serif;
-}
-
-h1, 
-h2, 
-h3,
-h4 {
-    font-family: "K2D-ExtraBold", Arial, sans-serif;
 }
 
 @media (max-width: 575.98px) {
     .personal-fs{
         font-size: 1.8rem;
     }
-    
+
     .personal-fs-h2{
         font-size: 2rem;
     }
-}    
+}
 
 @media (max-width: 700px) {
     article img {
-        width: 40% !important;
+        width: 50% !important;
     }
 }
 
@@ -87,7 +69,6 @@ h4 {
         font-size: 6rem;
     }
 }
-
 
 /*
 =============================
@@ -128,7 +109,7 @@ animation: nav 1700ms;
 
 header h1{
     animation: h1 2500ms;
-    }
+}
 
 @keyframes h1{
     0% {
@@ -136,11 +117,10 @@ header h1{
     }
     100% {
         transform: translateX(0);
-        }
     }
+}
 
 .personal-btn:hover{
-
     color: white !important;
     background-color: #008C8C;
     border: 4px solid rgb(255, 253, 253) !important;
